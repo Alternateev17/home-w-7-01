@@ -1,0 +1,160 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.wrap-container {
+  width: 50%;
+  max-width: 60%;
+}
+
+.cont-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.text-1 {
+  font-family: Montserrat;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 15px;
+  text-transform: uppercase;
+  color: #898f99;
+  padding-top: 50px;
+}
+
+.title {
+  font-family: Montserrat;
+  font-size: 48px;
+  line-height: 59px;
+  text-transform: uppercase;
+  padding-top: 55px;
+}
+
+.text-2 {
+  font-family: PT Sans;
+  font-size: 18px;
+  line-height: 23px;
+  text-align: center;
+  text-transform: uppercase;
+  text-align: center;
+  color: #000000;
+  padding-top: 55px;
+  padding-bottom: 99px;
+}
+
+span {
+  display: block;
+  text-align: center;
+}
+
+.icon-1 {
+  padding: 52px 83px 56px;
+}
+
+.icon-2 {
+  padding: 52px 88px 43px;
+}
+
+.icon-3 {
+  padding: 61px 88px 64px;
+}
+
+.icon-4 {
+  padding: 59px 83px 62px;
+}
+
+.title-2 {
+  font-family: Montserrat;
+  font-size: 21px;
+  line-height: 26px;
+  text-transform: uppercase;
+  color: #1b1b1b;
+}
+
+.tit-pos-1 {
+  padding: 0px 44px 45px;
+}
+
+.tit-pos-2 {
+  padding: 0px 11px 23px;
+}
+
+.tit-pos-3 {
+  padding: 0px 64px 36px;
+}
+
+.tit-pos-4 {
+  padding: 0px 31px 45px;
+}
+
+.text-3 {
+  font-family: PT Sans;
+  font-size: 14px;
+  line-height: 18px;
+  text-align: center;
+  color: #777777;
+}
+
+.text-pos-1 {
+  padding: 0px 14px 58px;
+}
+
+.text-pos-2 {
+  padding: 0px 37px 49px;
+}
+
+.text-pos-3 {
+  padding: 0px 39px 49px;
+}
+
+.text-pos-4 {
+  padding: 0px 29px 58px;
+}
+
+.color {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: #f7f7f7;
+  border: 1px solid #ececec;
+}
+
+.color:hover {
+  background: #0ec8cb;
+}
+/*svg path {
+    stroke:black;
+    stroke-width:inherit;
+    fill:black;
+    }
+
+    .color svg path:hover {
+        stroke:white;
+        stroke-width:inherit;
+        fill:white;
+    } */
+
+.color:hover h2 {
+  color: white;
+}
+
+.color:hover p {
+  color: white;
+}
+
+svg:hover {
+  stroke: white;
+  stroke-width: white;
+  fill: white;
+}
